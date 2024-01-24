@@ -5,6 +5,7 @@ import Error from "./Components/Error";
 import ChangingBg from "./Pages/ChangingBg";
 import ProductSwipe from "./Pages/ProductSwipe";
 import Practise from "./Components/Practise";
+import TextReaveal from "./Pages/TextReaveal";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/practise" element={<Practise />} />
         <Route path="/box/1" element={<ChangingBg />} />
         <Route path="/box/2" element={<ProductSwipe />} />
+        <Route path="/box/3" element={<TextReaveal />} />
       </Routes>
     </Router>
   );
