@@ -38,7 +38,7 @@ const ProductSwipe = () => {
       case 3:
         return require("../images/3.jpg");
       default:
-        return require("../images/default.jpg");
+      // return require("../images/default.jpg");
     }
   };
 
