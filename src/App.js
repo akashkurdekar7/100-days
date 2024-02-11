@@ -7,6 +7,7 @@ import ProductSwipe from "./Pages/ProductSwipe";
 import Practise from "./Components/Practise";
 import TextReaveal from "./Pages/TextReaveal";
 import Card from "./Pages/Card.js";
+import Craousel from "./Pages/Craousel.js";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/box/2" element={<ProductSwipe />} />
         <Route path="/box/3" element={<TextReaveal />} />
         <Route path="/box/4" element={<Card />} />
+        <Route path="/box/5" element={<Craousel />} />
       </Routes>
     </Router>
   );
